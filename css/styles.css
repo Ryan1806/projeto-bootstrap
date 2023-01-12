@@ -141,3 +141,97 @@ nav.container {
     margin-right: 15px;
 }
 
+/*Serviços*/
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4{
+    transition: .5s;
+}
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;   
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+    color: #65DAF9;
+}
+
+
+/*Dados*/
+
+.circle-box div {
+    padding: 0px 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p {
+    color:#fff;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+/*Trabalhe conosco*/
+
+#apply-area {
+    height: 500px;
+}
+
+ #apply-area .container-fluid, #apply-area .row {
+    height: 100%;
+ }
+
+ #apply-area .apply-box {
+    text-align: center;
+    padding: 70px 70px;
+ }
+
+ #company-img {
+    background-image: url('../imagem/empresa.jpg');
+    background-size: cover;
+    height: 100%;
+ }
+
+ #pattern-img h4, #pattern-img p {
+    color: #fff;
+ }
+
+#pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p {
+    margin-bottom: 20px;
+}
+
+#apply-btn {
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: white;
+}
+
+#apply-btn:hover {
+    border-color: #65DAF9;
+    background-color: #65DAF9;
+}
